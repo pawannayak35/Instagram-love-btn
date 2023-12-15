@@ -1,0 +1,37 @@
+h1 {
+    color: azure;
+}
+
+html, body {
+    background-color: rgb(196, 196, 72);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+    padding: 10px;
+    position: relative;
+}
+.card img {
+    width: 300px;
+    height: 400px;
+    object-fit: fill;
+    object-position: center;
+}
+.card i {
+    font-size: 2rem;
+    color: rgb(231, 19, 69);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform ease 0.4s;
+}
